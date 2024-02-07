@@ -1,8 +1,10 @@
-import { useState } from "react";
 import "./App.css";
 import Card from "./components/Card";
-import Counter from "./components/Counter"
+import Counter from "./components/Counter";
 import Namestatus from "./components/Namestatus";
+import Heroes from "./components/Heroes";
+import Playbase from "./components/Playbase";
+
 function App() {
   return (
     <>
@@ -13,9 +15,11 @@ function App() {
         <Card title="Hello Bro 4" description="Welcome to this website" />
       </div>
 
-
       <Counter />
       <Namestatus />
+      <Heroes />
+      
+      <Playbase />
     </>
   );
 }
