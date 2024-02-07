@@ -11,10 +11,10 @@ function Playbase() {
     { id: 6, name: "Hawkeye", firsAppeared: 2011 },
   ];
 
-  myHeroes.sort((a,b) => a.name.localeCompare(b.name)); //alphabetical order
-  // myHeroes.sort((a,b) => b.name.localeCompare(a.name)); //reverse-alphabetical order
-
-
+  // myHeroes.sort((a,b) => a.name.localeCompare(b.name)); ////alphabetical order
+  // myHeroes.sort((a,b) => b.name.localeCompare(a.name)); ////reverse-alphabetical order
+  // myHeroes.sort((a,b) => a.firsAppeared - b.firsAppeared); ////numerical order
+  // myHeroes.sort((a,b) => b.firsAppeared - a.firsAppeared); ////reverse-numerical order
 
 //displaying data on the page
   const heroesList = myHeroes.map((hero) => (
