@@ -18,8 +18,8 @@ function App() {
       <Counter />
       <Namestatus />
       <Heroes />
-      
       <Playbase />
+      
     </>
   );
 }
