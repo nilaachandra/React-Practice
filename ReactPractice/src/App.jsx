@@ -4,7 +4,7 @@ import Counter from "./components/Counter";
 import Namestatus from "./components/Namestatus";
 import Heroes from "./components/Heroes";
 import Playbase from "./components/Playbase";
-
+import Objects from "./components/Objects";
 function App() {
   return (
     <>
@@ -19,7 +19,7 @@ function App() {
       <Namestatus />
       <Heroes />
       <Playbase />
-      
+      <Objects/>
     </>
   );
 }
