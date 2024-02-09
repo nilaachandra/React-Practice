@@ -6,11 +6,11 @@ const Arrays = () => {
     "Xabi Alonso",
     "Iker Casillas",
   ]);
-
+minor cha
   const addPlayer = () => {
     const newPlayer = document.getElementById("playerInput").value;
     document.getElementById("playerInput").value = "";
-    setPlayer(np => [...np, newPlayer]);
+    setPlayer((np) => [...np, newPlayer]);
   };
 
   const benchPlayer = (index) => {
@@ -24,7 +24,11 @@ const Arrays = () => {
       </p>
       <ul>
         {players.map((player, index) => (
-            <li key={index} onClick={() => benchPlayer(index)} className="cursor-pointer">
+          <li
+            key={index}
+            onClick={() => benchPlayer(index)}
+            className="cursor-pointer"
+          >
             {player}
           </li>
         ))}
