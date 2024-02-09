@@ -5,6 +5,7 @@ import Namestatus from "./components/Namestatus";
 import Heroes from "./components/Heroes";
 import Playbase from "./components/Playbase";
 import Objects from "./components/Objects";
+import Arrays from "./components/Arrays";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
       <Heroes />
       <Playbase />
       <Objects/>
+      <Arrays/>
     </>
   );
 }
