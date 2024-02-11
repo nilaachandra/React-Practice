@@ -6,7 +6,7 @@ const Arrays = () => {
     "Xabi Alonso",
     "Iker Casillas",
   ]);
-minor cha
+  
   const addPlayer = () => {
     const newPlayer = document.getElementById("playerInput").value;
     document.getElementById("playerInput").value = "";

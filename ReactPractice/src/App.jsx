@@ -6,6 +6,8 @@ import Heroes from "./components/Heroes";
 import Playbase from "./components/Playbase";
 import Objects from "./components/Objects";
 import Arrays from "./components/Arrays";
+import UpdateArrays from "./components/UpdateArrays";
+
 function App() {
   return (
     <>
@@ -16,12 +18,13 @@ function App() {
         <Card title="Hello Bro 4" description="Welcome to this website" />
       </div>
 
-      <Counter />
-      <Namestatus />
-      <Heroes />
-      <Playbase />
+      <Counter/>
+      <Namestatus/>
+      <Heroes/>
+      <Playbase/>
       <Objects/>
       <Arrays/>
+      <UpdateArrays/>
     </>
   );
 }
