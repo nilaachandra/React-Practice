@@ -7,6 +7,7 @@ import Playbase from "./components/Playbase";
 import Objects from "./components/Objects";
 import Arrays from "./components/Arrays";
 import UpdateArrays from "./components/UpdateArrays";
+import SearchFunction from "./components/SearchFunction";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Objects/>
       <Arrays/>
       <UpdateArrays/>
+      <SearchFunction/>
     </>
   );
 }
