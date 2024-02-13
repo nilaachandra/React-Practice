@@ -8,6 +8,7 @@ import Objects from "./components/Objects";
 import Arrays from "./components/Arrays";
 import UpdateArrays from "./components/UpdateArrays";
 import SearchFunction from "./components/SearchFunction";
+import SearchFunc from "./components/SearchFunc";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Arrays/>
       <UpdateArrays/>
       <SearchFunction/>
+      <SearchFunc/>
     </>
   );
 }
