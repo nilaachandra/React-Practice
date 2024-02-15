@@ -12,9 +12,8 @@ const HeightWidth = () => {
   };
 
   // window.addEventListener("resize", handleResize); //without useEffect
-  // with useEffect
-
   
+  // with useEffect
   useEffect(() => {
     window.addEventListener("resize", handleResize);
     console.log("Event Listener Added");
