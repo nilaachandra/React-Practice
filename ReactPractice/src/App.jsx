@@ -9,6 +9,7 @@ import Arrays from "./components/Arrays";
 import UpdateArrays from "./components/UpdateArrays";
 import SearchFunction from "./components/SearchFunction";
 import SearchFunc from "./components/SearchFunc";
+import UseEffectP from "./components/UseEffectP";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <UpdateArrays/>
       <SearchFunction/>
       <SearchFunc/>
+      <UseEffectP/>
     </>
   );
 }
