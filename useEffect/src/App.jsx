@@ -3,6 +3,7 @@ import './App.css'
 import Counter from './components/Counter'
 import HeightWidth from './components/HeightWidth'
 import DigitalClock from './components/DigitalClock'
+import UseRefHook from './components/UseRefHook'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Counter/>
       <HeightWidth/>
       <DigitalClock/>
+      <UseRefHook/>
     </>
   )
 }
