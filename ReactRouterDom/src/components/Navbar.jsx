@@ -7,6 +7,7 @@ function Navbar() {
       <NavLink className={({isActive})=> `${isActive ? "active" : ""} uppercase font-bold text-xl hover:text-white`} to="/about">About</NavLink>
       <NavLink className={({isActive})=> `${isActive ? "active" : ""} uppercase font-bold text-xl hover:text-white`} to="/contact">Contact</NavLink>
       <NavLink className={({isActive})=> `${isActive ? "active" : ""} uppercase font-bold text-xl hover:text-white`} to="/connect">Connect</NavLink>
+      <NavLink className={({isActive})=> `${isActive ? "active" : ""} uppercase font-bold text-xl hover:text-white`} to="/github">Github</NavLink>
 
 
 
