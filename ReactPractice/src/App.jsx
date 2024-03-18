@@ -10,6 +10,7 @@ import UpdateArrays from "./components/UpdateArrays";
 import SearchFunction from "./components/SearchFunction";
 import SearchFunc from "./components/SearchFunc";
 import UseEffectP from "./components/UseEffectP";
+import Reduxtk from "./components/Reduxtk";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
       <SearchFunction/>
       <SearchFunc/>
       <UseEffectP/>
+      <div className="w-full h-screen">
+        <Reduxtk/>
+      </div>
     </>
   );
 }
